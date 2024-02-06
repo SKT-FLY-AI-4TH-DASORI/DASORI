@@ -74,11 +74,10 @@ Project Dasori: SKT FLY AI 4기 Ziller DaSori 서비스 프로젝트입니다.
     - Issue 번호가 없다면 생략 가능
     
 8. 이러면 끝인데, **Merge pull request는 절대 하지 말것** 
-    - 현재까지 작업: **upstream -> (fork) -> origin -> (add/commit/push) -> upstream(merge)**
+    - 현재까지 작업: **upstream -> (fork) -> origin -> (add/commit/push) -> pull&request -> upstream(merge) 요청**
     
 9. 변경(merge)된 upstream을 현재 내가 작업하고 있던 fork한 origin 저장소에 반영해야함 </br>
-    `git branch` → `git checkout main` → `git fetch upstream` → `git merge upstream/main`
-    → `git push origin main`
+    `git branch` → `git checkout main` → `git fetch upstream` → `git merge upstream/main` → `git push origin main`
 
 **Commit 메세지 포멧**
 
